@@ -1,0 +1,38 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #000000;
+	background: -webkit-linear-gradient(to right, #4b6cb7, #182848);
+	background: linear-gradient(to right, #4b6cb7, #182848);
+	
+	color:  white;
+}
+
+#main-menu {
+	width: 200px;
+	height: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -175px 0 0 -100px;
+}
+
+#author {
+	text-align: center;
+	color: rgba(255, 255, 255, .5);
+}
+
+.main-option {
+	display: block;
+	padding: 20px;
+
+	border-radius: 15px;
+	text-align: center;
+	font-size: 27px;
+	
+	background-color: rgba(255, 255, 255, .5);
+	color: white;
+	text-decoration: none;
+}
